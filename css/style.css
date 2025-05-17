@@ -32,3 +32,24 @@ body{
     border: 0.1px solid #333;
 }
 
+#casual-h{
+    background-color: #f5f5f5;
+    color: #333;
+    font-size: 24px;
+    text-align: center;
+    padding: 15px;
+    height: 120px;
+    width: 80px;
+    border: 0.1px solid #000;
+}
+
+#casual-m{
+    background-color: #f5f5f5;
+    color: #333;
+    font-size: 24px;
+    text-align: center;
+    padding: 15px;
+    height: 120px;
+    width: 80px;
+    border: 0.1px solid #333;
+}

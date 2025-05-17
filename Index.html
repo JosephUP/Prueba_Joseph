@@ -28,7 +28,18 @@
                 <p>En nuestra tienda ofrecemos una variedad de estilos para todos los gustos. Desde ropa casual hasta ropa formal, tenemos algo para cada ocasión.</p>
                 <ul>
                     <li>Casual</li>
-                    <p>El estilo casual 
+                    <p>El estilo casual se caracteriza por su comodidad y versatilidad.
+                     Incluye prendas como jeans, camisetas, sudaderas y zapatillas. 
+                     Este estilo es perfecto para el día a día y se puede adaptar a diferentes ocasiones. <br>
+                     Para un estilo casual clásico, puedes apostar por prendas básicas y atemporales como jeans,
+                     camisetas, camisas de vestir, blazer, y zapatos planos o deportivos. La clave está en la 
+                     calidad de las prendas y en la combinación de colores neutros, creando looks versátiles y elegantes. </p>
+
+                     <section id="container1">
+                     <img id="casual-h" src="img/casual-h.jpeg" alt="">
+                     <img id="casual-m" src="img/casual-m.jpeg" alt="">
+                     </section>
+                     <br>
 
                     </p>
                     <li>Clásico</li>
@@ -59,6 +70,80 @@
             </section>
 
             <section id="contacto">
+                <!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Formulario de Contacto</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #dfd6d6d5;
+      padding: 20px;
+    }
+    .form-container {
+      max-width: 500px;
+      margin: auto;
+      background: #fff;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    .form-group {
+      margin-bottom: 15px;
+    }
+    label {
+      display: block;
+      margin-bottom: 5px;
+      font-weight: bold;
+    }
+    input, textarea {
+      width: 100%;
+      padding: 10px;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+    }
+    button {
+      background-color: #28a745;
+      color: white;
+      padding: 10px 15px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #218838;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="form-container">
+    <h2>Contáctanos</h2>
+    <form action="/enviar-contacto" method="post">
+      <div class="form-group">
+        <label for="nombre">Nombre completo</label>
+        <input type="text" id="nombre" name="nombre" required>
+      </div>
+      <div class="form-group">
+        <label for="email">Correo electrónico</label>
+        <input type="email" id="email" name="email" required>
+      </div>
+      <div class="form-group">
+        <label for="telefono">Teléfono</label>
+        <input type="tel" id="telefono" name="telefono">
+      </div>
+      <div class="form-group">
+        <label for="mensaje">Mensaje</label>
+        <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
+      </div>
+      <button type="submit">Enviar</button>
+    </form>
+  </div>
+
+</body>
+</html>
 
             </section>
 
