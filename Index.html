@@ -148,7 +148,40 @@
                     </div>
                 </ul>
             </section>
-
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Galería de Imágenes</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+    }
+    .galeria {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 15px;
+      justify-items: center;
+    }
+    .galeria img {
+      width: 200px;
+      height: auto;
+      border-radius: 6px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+  </style>
+</head>
+<body>
+  <h2>Mini Galería</h2>
+  <div class="galeria">
+    <img src="img/clasico-n.jpg" alt="Imagen 1">
+    <img src="img/clasico-p.jpg" alt="Imagen 2">
+    <img src="img/clasico-r.jpeg" alt="Imagen 3">
+    <img src="img/d75d714f4d17678da63a0f867b48ec62.jpg" alt="Imagen 4">
+  </div>
+</body>
+</html>
             <section id="productos">
 
               <nav class="nav-productos">
